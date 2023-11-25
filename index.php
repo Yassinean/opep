@@ -1,6 +1,21 @@
 <?php
 include("php/connexion.php");
+?>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/7ec32a8049.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Home</title>
+</head>
+
+<?php
 include("php/header.php");
 ?>
 <section class="home">
